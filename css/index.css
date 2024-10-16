@@ -1,0 +1,30 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+:root {
+  --main-color1: rgb(0, 0, 0); /*rgb(255,215,0)*/
+}
+
+@font-face {
+  font-family: "poppinsm";
+  src: url("../assets/font/poppins/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppinsb";
+  src: url("../assets/font/poppins/Poppins-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "poppinsl";
+  src: url("../assets/font/poppins/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "robotomono";
+  src: url("../assets/font/robotomono/RobotoMono-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: normal;
+}

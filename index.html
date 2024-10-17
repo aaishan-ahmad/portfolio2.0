@@ -85,8 +85,12 @@
 
 
         for (let j = 0; j < project_length; j++) {
+         
+          _scroll = ""
           project = document.createElement("div");
           project.className = "project";
+          if (j==4)
+          project.id = "five"
           project.innerHTML = `<div class="project-image-container">
             <img src=${project_data[j].image} alt="" />
           </div>
@@ -122,6 +126,7 @@
         a =0;
            b = "./assets/icons/arrow_right.png"
        }
+       location.href = "#five"
     
       })
      

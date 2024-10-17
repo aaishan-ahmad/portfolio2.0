@@ -53,11 +53,11 @@
 @media screen and (max-width: 800px) {
   #iam {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 9vw;
+    font-size: 7vw;
     margin-left: 10%;
   }
   #ahsan {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 10vw;
     margin-left: 10%;
     font-weight: bold;

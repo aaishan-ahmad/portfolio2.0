@@ -17,7 +17,7 @@
         <img src="./assets/me.png" alt="" />
       </div>
       <nav id="header-nav">
-        <li class="header-nav-li"><a href="">projects</a></li>
+        <li class="header-nav-li"><a href="#projects">projects</a></li>
         <li class="header-nav-li"><a href="">achevments</a></li>
         <li class="header-nav-li"><a href="">Notes</a></li>
       </nav>
@@ -44,21 +44,94 @@
       <div id="projects-header">PROJECTS</div>
 
       <div id="projects-container">
-        <div id="projects-list">
-          <div class="project">0</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
-          <div class="project">1</div>
+      
         </div>
-        <div id="projects-display"></div>
       </div>
     </div>
   </body>
+
+  <script>
+
+    var a = 0 ;
+    var b = "./assets/icons/arrow_right.png"
+    async function loadProducts() {
+      try {
+        const response = await fetch("./data/projects.json");
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        const products = await response.json();
+        return products;
+      } catch (error) {
+        console.error(
+          "There has been a problem with your fetch operation:",
+          error
+        );
+      }
+    }
+
+    async function projects_load(temp) {
+      project_data = await loadProducts();
+      
+      document.getElementById("projects-container").innerHTML = "";
+
+      if (temp == 0) {
+        project_length = 5;
+      } 
+      else {
+        project_length = project_data.length;
+      }
+    
+
+
+        for (let j = 0; j < project_length; j++) {
+          project = document.createElement("div");
+          project.className = "project";
+          project.innerHTML = `<div class="project-image-container">
+            <img src=${project_data[j].image} alt="" />
+          </div>
+          <div class="project-details-container">
+            <div
+              style="
+                font-family: 'Lucida Sans', 'Lucida Sans Regular',
+                  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+                  sans-serif;
+              "
+            >
+              ${project_data[j].name}
+            </div>
+            <div><a href=${project_data[j].link}>Visit</a></div>
+            <div style="font-family: 'poppinsl'; font-size: 12px">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+              mollitia.
+            </div>
+          </div>`;
+
+          document.getElementById("projects-container").appendChild(project);
+        }
+      
+        see_more = document.createElement("div");
+      see_more.className = "project"
+      see_more.addEventListener("click",()=>{
+        if(a == 0 )
+        {projects_load(1) ;a = 1;
+          b = "./assets/icons/arrow_left.png"
+        }
+        else
+       { projects_load(0)
+        a =0;
+           b = "./assets/icons/arrow_right.png"
+       }
+    
+      })
+     
+      see_more.innerHTML = `<img style = " height:16%;" src = ${b} alt = "see more"/>`
+      document.getElementById("projects-container").appendChild(see_more);
+
+    }
+
+   
+
+    projects_load(0);
+  </script>
 </html>

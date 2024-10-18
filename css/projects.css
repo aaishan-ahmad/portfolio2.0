@@ -8,7 +8,7 @@
 #projects-header {
   width: 70%;
   margin-left: 10%;
-  font-size: 40px;
+  font-size: 35px;
   margin-top: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
@@ -65,4 +65,13 @@
   margin-left: 10px;
   margin-top: 10px;
   font-weight: bold;
+}
+
+/*mobile portable================*/
+/*mobile portable================*/
+
+@media screen and (max-width: 800px) {
+  #projects-header {
+    font-size: 25px;
+  }
 }

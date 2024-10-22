@@ -38,7 +38,6 @@
 #skills-container-skill {
   width: 45%;
   height: 95%;
-
   padding: 2.5%;
 
   height: auto;
@@ -76,7 +75,7 @@
 @media screen and (max-width: 800px) {
   #skills-header {
     font-size: 25px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   #skills-container {
     flex-direction: column;
@@ -88,6 +87,6 @@
     width: 90%;
   }
   #skills-container-skill {
-    width: 100%;
+    width: 95%;
   }
 }

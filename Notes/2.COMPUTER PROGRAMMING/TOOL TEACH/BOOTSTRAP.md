@@ -1,1 +1,0 @@
-[link with tool teach](TOOL_TEACH)

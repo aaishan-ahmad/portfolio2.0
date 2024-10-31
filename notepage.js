@@ -55,8 +55,14 @@ async function loadnote() {
             file.replaceAll(" ", "%20");
           notedata = await fetch(raw);
           const converter = new showdown.Converter();
-          text = "# hello, markdown";
-          html = converter.makeHtml(await notedata.text());
+          notedata = await notedata.text();
+          notedata = notedata.replaceAll(".png)", ".png?raw=true)");
+          html = converter.makeHtml(
+            notedata.replaceAll(
+              "_resource",
+              "https://github.com/ahsan-abc/notes/blob/main/_resource"
+            )
+          );
           document.getElementById("note-content-container").innerHTML = html;
           // await notedata.text();
         }

@@ -4,7 +4,7 @@ var menu_status = false;
 document.getElementById("note-menu-button").addEventListener("click", () => {
   console.log("ho");
   if (menu_status == false) {
-    document.getElementById("note-menu").style.width = "45vw";
+    document.getElementById("note-menu").style.width = "45%";
     menu_status = true;
   } else {
     document.getElementById("note-menu").style.width = "0";
@@ -40,6 +40,7 @@ async function loadnote() {
         console.log(index);
         loadnote();
       });
+      if (index == chapter) li.style.color = "green";
       document.getElementById("note-menu-chapters").appendChild(li);
       if (index == chapter) {
         // https://api.github.com/repos/ahsan-abc/notes/contents

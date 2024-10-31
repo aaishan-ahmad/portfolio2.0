@@ -8,11 +8,6 @@
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/COMPUTER%20ARCHITECTURE%20&%20ORGANIZATION"
       },
       {
-        "name": "DSA",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/dsa.png?raw=true",
-        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/DSA"
-      },
-      {
         "name": "Networking",
         "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/networking.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/NETWORKING"
@@ -27,6 +22,12 @@
         "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/graphics.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/OS"
       },
+      {
+        "name": "DSA",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/dsa.png?raw=true",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/DSA"
+      },
+
       {
         "name": "Computer engineering",
         "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/engineering.png?raw=true",

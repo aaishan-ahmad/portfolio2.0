@@ -24,7 +24,6 @@ p {
 
 #note-menu-header {
   width: 90%;
-  background-color: aqua;
   padding-top: 20px;
   padding-bottom: 10px;
   padding-right: 5%;
@@ -66,6 +65,7 @@ p {
 @media screen and (max-width: 800px) {
   #note-menu-button {
     display: flex;
+    position: fixed;
   }
   #note-menu {
     width: 0;

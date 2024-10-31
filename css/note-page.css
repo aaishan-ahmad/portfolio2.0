@@ -16,28 +16,42 @@ p {
   padding: 0;
   margin: 0;
 }
+#note-menu-button {
+  display: none;
+  width: 30px;
+  margin-top: 10px;
+}
 
 #note-menu-header {
-  width: 80%;
-  padding-top: 40px;
+  width: 90%;
+  background-color: aqua;
+  padding-top: 20px;
   padding-bottom: 10px;
-  padding-left: 10%;
-  padding: 10%;
+  padding-right: 5%;
+  padding-left: 5%;
   color: white;
+  font-size: 1.3rem;
   font-family: sans-serif;
 }
 
 #note-menu-chapters {
   color: white;
-  margin-left: 50px;
+  width: 95%;
+  padding: 0 2.5%;
 }
 .note-menu-chapter {
-  margin: 5px auto;
+  padding: 5px;
+  margin: 10px auto;
+  font-family: sans-serif;
+  font-weight: 100;
   list-style: none;
+}
+.note-menu-chapter:hover {
+  color: rgb(26, 255, 0);
 }
 
 #note-content {
-  width: 100%;
+  width: 80%;
   height: 100%;
   background-color: #f4f4f4;
   overflow-y: scroll;
@@ -50,7 +64,14 @@ p {
 }
 
 @media screen and (max-width: 800px) {
-  #note-menu-chapter {
-    display: none;
+  #note-menu-button {
+    display: flex;
+  }
+  #note-menu {
+    width: 0;
+    background-color: black;
+  }
+  #note-content {
+    width: 100%;
   }
 }

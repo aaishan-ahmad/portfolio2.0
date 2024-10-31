@@ -1,4 +1,16 @@
 var chapter = 0;
+var menu_status = false;
+
+document.getElementById("note-menu-button").addEventListener("click", () => {
+  console.log("ho");
+  if (menu_status == false) {
+    document.getElementById("note-menu").style.width = "45vw";
+    menu_status = true;
+  } else {
+    document.getElementById("note-menu").style.width = "0";
+    menu_status = false;
+  }
+});
 
 async function loadnote() {
   console.log();
@@ -22,7 +34,7 @@ async function loadnote() {
     mdFiles.forEach((file, index) => {
       li = document.createElement("li");
       li.className = "note-menu-chapter";
-      li.innerHTML = file;
+      li.innerHTML = "- " + file.replace(".md", "");
       li.addEventListener("click", () => {
         chapter = index;
         console.log(index);

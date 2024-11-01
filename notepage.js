@@ -6,9 +6,15 @@ document.getElementById("note-menu-button").addEventListener("click", () => {
   if (menu_status == false) {
     document.getElementById("note-menu").style.width = "45%";
     menu_status = true;
+    document
+      .getElementById("note-menu-button")
+      .setAttribute("src", "./assets/icons/menu_open.png");
   } else {
     document.getElementById("note-menu").style.width = "0";
     menu_status = false;
+    document
+      .getElementById("note-menu-button")
+      .setAttribute("src", "./assets/icons/menu.png");
   }
 });
 

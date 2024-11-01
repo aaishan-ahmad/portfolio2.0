@@ -9,6 +9,11 @@ body {
 p {
   margin: 0;
 }
+
+img {
+  max-width: 100%;
+}
+
 #note-menu {
   width: 20%;
   height: 100%;

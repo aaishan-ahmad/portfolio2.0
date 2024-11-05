@@ -46,7 +46,7 @@ async function loadnote() {
         console.log(index);
         loadnote();
       });
-      if (index == chapter) li.style.color = "green";
+      if (index == chapter) li.style.color = " rgb(26, 255, 0)";
       document.getElementById("note-menu-chapters").appendChild(li);
       if (index == chapter) {
         // https://api.github.com/repos/ahsan-abc/notes/contents
@@ -69,6 +69,13 @@ async function loadnote() {
               "https://github.com/ahsan-abc/notes/blob/main/_resource"
             )
           );
+          html =
+            `<h1 style=" color:rgb(26, 255, 0);">${file.replace(
+              ".md",
+              ""
+            )}</h1>` + html;
+          html = html.replaceAll("<h3", "<h3 style= 'color:red;'");
+          html = html.replaceAll("<li", "<li style= 'color:blue;'");
           document.getElementById("note-content-container").innerHTML = html;
           // await notedata.text();
         }

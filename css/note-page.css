@@ -20,6 +20,7 @@ img {
   background-color: #2f2f2f;
   padding: 0;
   margin: 0;
+  overflow-y: scroll;
 }
 #note-menu-button {
   display: none;

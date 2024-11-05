@@ -47,10 +47,37 @@
   },
   {
     "name": "Cyber security",
-    "topics": []
+    "topics": [
+      {
+        "name": "Ethical hacking",
+        "cover": "",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/CYBER%20SECURITY/ETHICAL%20HACKING"
+      }
+    ]
   },
   {
-    "name": "Extra",
-    "topics": []
+    "name": "Other",
+    "topics": [
+      {
+        "name": "Math for Programmer",
+        "cover": "",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/MATH%20FOR%20PROGRAMMER"
+      },
+      {
+        "name": "Tool and Technologies",
+        "cover": "",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/TOOL%20AND%20TECHNOLOGIES"
+      },
+      {
+        "name": "Devops",
+        "cover": "",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/DEVOPS"
+      },
+      {
+        "name": "Framework",
+        "cover": "",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/FRAMEWORK"
+      }
+    ]
   }
 ]

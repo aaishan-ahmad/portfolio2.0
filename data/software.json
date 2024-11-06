@@ -50,7 +50,7 @@
     "topics": [
       {
         "name": "Ethical hacking",
-        "cover": "",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/architecture.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/CYBER%20SECURITY/ETHICAL%20HACKING"
       }
     ]
@@ -60,22 +60,22 @@
     "topics": [
       {
         "name": "Math for Programmer",
-        "cover": "",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/mathforprogramming.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/MATH%20FOR%20PROGRAMMER"
       },
       {
         "name": "Tool and Technologies",
-        "cover": "",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/toolandtechnologies.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/TOOL%20AND%20TECHNOLOGIES"
       },
       {
         "name": "Devops",
-        "cover": "",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/devops.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/DEVOPS"
       },
       {
         "name": "Framework",
-        "cover": "",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/frameworks.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/FRAMEWORK"
       }
     ]

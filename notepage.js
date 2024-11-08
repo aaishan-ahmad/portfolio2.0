@@ -74,8 +74,9 @@ async function loadnote() {
               ".md",
               ""
             )}</h1>` + html;
-          html = html.replaceAll("<h3", "<h3 style= 'color:red;'");
-          html = html.replaceAll("<li", "<li style= 'color:blue;'");
+
+          html = html.replaceAll("<li", "<li class='montserrat-li'");
+          html = html.replaceAll("<h3", "<h3 class='montserrat-h3'");
           document.getElementById("note-content-container").innerHTML = html;
           // await notedata.text();
         }

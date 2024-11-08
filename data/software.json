@@ -20,7 +20,7 @@
       {
         "name": "Computer graphics",
         "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/graphics.png?raw=true",
-        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/OS"
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/COMPUTER%20GRAPHICS"
       },
       {
         "name": "DSA",
@@ -29,9 +29,14 @@
       },
 
       {
+        "name": "DBMS",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/dbms.png?raw=true",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/DBMS"
+      },
+      {
         "name": "Computer engineering",
         "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/engineering.png?raw=true",
-        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/OS"
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/BASICS/SOFTWARE%20ENGINEERING"
       }
     ]
   },
@@ -39,12 +44,58 @@
     "name": "Proramming language",
     "topics": [
       {
-        "name": "Python",
-        "cover": "",
+        "name": "Assembly language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/assemblylanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "C language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/clanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "CPP language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "Javascript",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "CPP language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "CPP language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "CPP language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "CPP language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "CPP language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "CPP language",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
         "link": ""
       }
     ]
   },
+
   {
     "name": "Cyber security",
     "topics": [
@@ -55,6 +106,7 @@
       }
     ]
   },
+
   {
     "name": "Other",
     "topics": [

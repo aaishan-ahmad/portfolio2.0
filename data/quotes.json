@@ -1,5 +1,11 @@
 [
-{"quote":"Books are a uniquely portable magic.",
-"by":"Stephen King"
-},
+  { "quote": "Books are a uniquely portable magic.", "by": "Stephen King" },
+  {
+    "quotes": "BASIC => projects => Advance => Projects => Master => Projects",
+    "by": "A2"
+  },
+  {
+    "quotes": "Don't follow cources , make topics sub topics and study each topics one-by-one",
+    "by": "A2"
+  }
 ]

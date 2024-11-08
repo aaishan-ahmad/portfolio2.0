@@ -55,42 +55,42 @@
       },
       {
         "name": "CPP language",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpp.png?raw=true",
         "link": ""
       },
       {
         "name": "Javascript",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/js.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "Python",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/python.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "C Sharp",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/csharp.png?raw=true",
+        "link": ""
+      },
+      {
+        "name": "Swift",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/swift.png?raw=true",
         "link": ""
       },
       {
         "name": "CPP language",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/golang.png?raw=true",
         "link": ""
       },
       {
         "name": "CPP language",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/r.png?raw=true",
         "link": ""
       },
       {
         "name": "CPP language",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
-        "link": ""
-      },
-      {
-        "name": "CPP language",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
-        "link": ""
-      },
-      {
-        "name": "CPP language",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
-        "link": ""
-      },
-      {
-        "name": "CPP language",
-        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/cpplanguage.png?raw=true",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/rust.png?raw=true",
         "link": ""
       }
     ]
@@ -129,6 +129,11 @@
         "name": "Framework",
         "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/frameworks.png?raw=true",
         "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/FRAMEWORK"
+      },
+      {
+        "name": "Shellscripting",
+        "cover": "https://github.com/ahsan-abc/notes/blob/main/_resource/cover/shellscripting.png?raw=true",
+        "link": "https://api.github.com/repos/ahsan-abc/notes/contents/SOFTWARE/OTHER/SHELL%20SCRIPTING"
       }
     ]
   }

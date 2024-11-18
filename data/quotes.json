@@ -1,11 +1,19 @@
 [
   { "quote": "Books are a uniquely portable magic.", "by": "Stephen King" },
   {
-    "quotes": "BASIC => projects => Advance => Projects => Master => Projects",
+    "quote": "BASIC => projects => Advance => Projects => Master => Projects",
     "by": "A2"
   },
   {
-    "quotes": "Don't follow cources , make topics sub topics and study each topics one-by-one",
+    "quote": "Don't follow cources , make topics sub topics and study each topics one-by-one",
     "by": "A2"
+  },
+  {
+    "quote": "I hear and I forget. I see and I remember. I do and I understand.",
+    "by": "Confucius"
+  },
+  {
+    "quote": "Everybody is interested in success, but nobody cares about the process behind it.",
+    "by": "Pratik Gandhi"
   }
 ]

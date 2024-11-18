@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/skills.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/notes.css" />
+    <link rel="stylesheet" href="./css/quotes.css">
   </head>
   <body>
     <!--header------------------------------------>
@@ -23,7 +24,7 @@
       <nav id="header-nav">
         <li class="header-nav-li"><a href="#projects">projects</a></li>
         <li class="header-nav-li"><a href="">achevments</a></li>
-        <li class="header-nav-li"><a href="#notes-header">Notes</a></li>
+        <li class="header-nav-li"><a href="#quotes">quotes</a></li>
       </nav>
     </header>
 
@@ -70,6 +71,19 @@
 
 
     </div>
+
+
+<!--quotes==================================================-->
+<!--quotes==================================================-->
+<div id="quotes">
+  <div id="quote">
+    
+     A man will die but not his idea
+
+    <br>
+    - ahsan
+  </div>
+</div>
 
 
 <!--footer===================================================-->    
@@ -120,5 +134,21 @@
 
   <script src="./index.js"></script>
   <script src="./notes.js"></script>
+  <script>
+
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+async function loadquote ()
+    {
+      data = await fetch("./data/quotes.json");
+      data = await data.json()
+      random = getRndInteger(0,data.length - 1)
+      console.log(random)
+      document.getElementById("quote").innerHTML= ``;
+      document.getElementById("quote").innerHTML= `" ${ await data[random].quote} " <br> <br> -  ${await data[random].by}`;
+    }
+    loadquote()
+    </script>
 
 </html>

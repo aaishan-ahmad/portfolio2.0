@@ -7,10 +7,11 @@
 }
 
 #quote {
-padding:20px;
+padding: 0 50px;
   background-color: aliceblue;
   width: 50%;
   height: 90%;
+  font-size: 1%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;

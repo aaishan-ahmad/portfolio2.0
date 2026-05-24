@@ -9,14 +9,14 @@
   {
     "name": "Weather",
     "image": "https://i.ibb.co/Z8491Yr/Weather.jpg",
-    "link": "https://goldenssh.github.io/weather/",
+    "link": "https://aaishan-ahmad.github.io/weather/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
     "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
   },
   {
     "name": "Tic-Tac_Toe game",
     "image": "https://i.ibb.co/mG8wvDb/Capture.jpg",
-    "link": "https://goldenssh.github.io/tic-tac-toe/",
+    "link": "https://aaishan-ahmad.github.io/tic-tac-toe/",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
     "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
   },
@@ -31,28 +31,28 @@
   {
     "name": "Snake game",
     "image": "https://i.ibb.co/GMF5HfT/Capture.jpg",
-    "link": "https://goldenssh.github.io/snake-game",
+    "link": "https://aaishan-ahmad.github.io/snake-game",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
     "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
   },
   {
     "name": "Trekist",
     "image": "./assets/project_images/trekist.png",
-    "link": "https://goldenssh.github.io/trekist",
+    "link": "https://aaishan-ahmad.github.io/trekist",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
     "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
   },
   {
     "name": "Trekist",
     "image": "./assets/project_images/trekist.png",
-    "link": "https://goldenssh.github.io/trekist",
+    "link": "https://aaishan-ahmad.github.io/trekist",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
     "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
   },
   {
     "name": "Trekist",
     "image": "./assets/project_images/trekist.png",
-    "link": "https://goldenssh.github.io/trekist",
+    "link": "https://aaishan-ahmad.github.io/trekist",
     "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
     "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
   }

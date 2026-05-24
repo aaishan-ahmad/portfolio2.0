@@ -3,22 +3,19 @@
     "name": "Trekist",
     "image": "./assets/project_images/trekist.png",
     "link": "https://aaishan-ahmad.github.io/trekist",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
-    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
+    "about": "Trekist – where innovation meets style. Our premium shoes are crafted for comfort and built to last. Step into excellence with every pair. Explore our collection and elevate your journey.""
   },
   {
     "name": "Weather",
     "image": "https://i.ibb.co/Z8491Yr/Weather.jpg",
     "link": "https://aaishan-ahmad.github.io/weather/",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
-    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
+    "about": "know your city weather within a just one search...."
   },
   {
     "name": "Tic-Tac_Toe game",
     "image": "https://i.ibb.co/mG8wvDb/Capture.jpg",
     "link": "https://aaishan-ahmad.github.io/tic-tac-toe/",
-    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis",
-    "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex perspiciatis iste consequatur pariatur blanditiis cumque, possimus quam qui, ut iusto quidem ab! Ratione ea voluptatem possimus, laudantium deserunt perspiciatis iusto?"
+    "about": "The classical two player game 'tic tac toe' enjoy online with friends and chill.."
   },
   {
     "name": "Portfolio",

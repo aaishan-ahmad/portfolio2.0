@@ -47,8 +47,7 @@ async function projects_load(temp) {
         </div>
         <div><a href=${project_data[j].link} target="_blank">Visit</a></div>
         <div style="font-family: 'poppinsl'; font-size: 12px">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-          mollitia.
+          ${project_data[j].about}
         </div>
       </div>`;
 

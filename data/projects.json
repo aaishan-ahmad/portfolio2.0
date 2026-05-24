@@ -21,17 +21,14 @@
     "name": "Portfolio",
     "image": "https://i.ibb.co/HTcWTGN/Capture.jpg",
     "link": "https://aaishan-ahmad.github.io/portfolio",
-    "about": "Old Portfolio Website
-This was my previous portfolio website, designed with a hacker-inspired green and black theme. It featured animated sections for projects, skills, certificates, and personal notes, giving it a unique programmer-style appearance. Built using HTML, CSS, and JavaScript, the project helped me improve my frontend design, animations, and creative UI development skills."
+    "about": "old"
   },
 
   {
     "name": "Snake game",
     "image": "https://i.ibb.co/GMF5HfT/Capture.jpg",
     "link": "https://aaishan-ahmad.github.io/snake-game",
-    "about":"Classic Snake Game built for the web using HTML, CSS, and JavaScript with smooth controls and retro-style gameplay.
-Features real-time score tracking, increasing difficulty, and responsive design for an engaging user experience.
-Developed to strengthen game logic, DOM manipulation, and JavaScript programming skills."
+    "about":"sikll"
   },
   {
     "name": "Soon",
